@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <h1>Conversor de Moedas</h1>
+    </header>
+
+    <form>
+
+        <div id="container">
+            <p>Conversor em dólar</p> 
+        <input type="text" name="moeda" id="valor1">
+        <input type="button" value="Converter" onclick="converter1()" id="botao"> <br>
+        <h2 id="resposta1"></h2> <br>
+
+        <p>Conversor de Bitcoin</p> 
+        <input type="text" name="moeda" id="valor2">
+        <input type="button" value="Converter" onclick="converter2()" id="botao2"> <br>
+        <h2 id="resposta2"></h2> <br>
+
+        <p>Conversor de Euro</p> 
+        <input type="text" name="moeda" id="valor3">
+        <input type="button" value="Converter" onclick="converter3()" id="botao3"> <br>
+        <h2 id="resposta3"></h2>
+        </div>
+
+        
+
+    </form>
+
+    <footer>
+        <p> &copy; Guilherme Mattos</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
